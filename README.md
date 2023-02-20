@@ -1,11 +1,12 @@
-                                                      #Proyecto_Individual01
+                                                       #Proyecto_Individual01
 >Giselle Pereira Nuñez
 
 ![Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos](https://user-images.githubusercontent.com/108558805/220166602-27bce753-813d-4aec-af26-77c5e89cb28a.jpg)
 
 
-Temática
-El Rol consiste en Data Scientist que trabaja en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
+Temática: 
+
+Soy un Data Scientist que trabaja en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
 
 Voy a los datos y me doy cuenta que la madurez de los mismos es poca: Datos sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas😩.
 
@@ -16,15 +17,15 @@ Manos a la obra 💪
 
 MENU: 
 
-Carpeta Datasets_iniciales - las bases de datos que recibí para trabajar.
-Carpeta pycache - carpeta necesaria para el funcionamiento de la API.
-Carpeta API - dentro de encuentan todo los recursos necesarios para la API de consultas.
-Funciones_API.ipynb - notebook con pruebas de las funciones.
-ETL.ipynb - paso a paso del ETL.
-EDA.ipynb - archivo de analisis de datos.
-ML.ipynb - acrchivo de modelo de Sistema de Recomendación.
-README - Instrucciones de uso.
-ml.parquet - archivo parquet utilizado para el modelo de ML.
+- [x] Carpeta Datasets_iniciales - las bases de datos que recibí para trabajar.
+- [x] Carpeta pycache - carpeta necesaria para el funcionamiento de la API.
+- [x] Carpeta API - dentro de encuentan todo los recursos necesarios para la API de consultas.
+- [x] Funciones_API.ipynb - notebook con pruebas de las funciones.
+- [x] ETL.ipynb - paso a paso del ETL.
+- [x] EDA.ipynb - archivo de analisis de datos.
+- [x] ML.ipynb - acrchivo de modelo de Sistema de Recomendación.
+- [x] README - Instrucciones de uso.
+- [x] ml.parquet - archivo parquet utilizado para el modelo de ML.
 
 
 Funciones que componen la API y Link:
