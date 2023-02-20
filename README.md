@@ -1,4 +1,4 @@
-                                                       #Proyecto_Individual01
+                                                    #Proyecto_Individual01
 >Giselle Pereira Nuñez
 
 ![Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos](https://user-images.githubusercontent.com/108558805/220166602-27bce753-813d-4aec-af26-77c5e89cb28a.jpg)
@@ -50,6 +50,7 @@ Descargar la app aqui: https://deta.space/discovery/r/cwp6zzbnkbpl6yml
 Sintaxis a tener en cuenta al escribir una consulta: ⚠️
 - Todo debe estar escrito en minúsculas.
 - Las plataformas que admite son: amazon, disney_plus, hulu y netflix.
+- En los campos que piden tipo de duración estan las opciones: min y season.
 
 Use estas heramientas:
 - Python.
