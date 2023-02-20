@@ -1,5 +1,6 @@
-                                                                        Proyecto_Individual01
+                                                                  Proyecto_Individual01
 Giselle Pereira Nuñez
+
 
 
 Temática
