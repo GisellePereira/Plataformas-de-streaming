@@ -2,7 +2,13 @@
 Giselle Pereira Nuñez
 
 Temática
+El Rol consiste en Data Scientist que trabaja en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
 
+Voy a los datos y me doy cuenta que la madurez de los mismos es poca: Datos sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas😩.
+
+Empiezo desde 0, haciendo un trabajo rápido de Data Engineer y tener un MVP (Minimum Viable Product) para la próxima semana❗. 
+
+Manos a la obra 💪
 
 
 MENU: 
@@ -37,6 +43,17 @@ Sintaxis a tener en cuenta al escribir una consulta: ⚠️
 - Las plataformas que admite son: amazon, disney_plus, hulu y netflix.
 - Evite utilizar caracteres hispanos.
 
+Utilice estas heramientas:
+- Python.
+- Librería Pandas.
+- Librería Numpy.
+- Librería scikit-learn.
+- FastApi.
+- Uvicorn.
+- Space Deta (plataforma online y gratuita)
+- Entre Otros!!
 
+Gracias por la visita😏
+Cualquier cosa podes escribirme a --> giseepereira2017@gmial.com
 
 
