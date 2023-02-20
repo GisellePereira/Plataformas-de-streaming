@@ -1,10 +1,10 @@
- Proyecto_Individual01
+ ***Proyecto_Individual01***
 >Giselle Pereira Nuñez
 
 ![Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos](https://user-images.githubusercontent.com/108558805/220166602-27bce753-813d-4aec-af26-77c5e89cb28a.jpg)
 
 
-Temática: 
+:nerd_face: Temática: 
 
 Soy un Data Scientist que trabaja en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
 
@@ -35,7 +35,7 @@ Funciones que componen la API y Link:
 - Actor que más se repite según plataforma y año. 
 
 
-En este link podras ingresar y consultar las funciones: https://proyecto-1-l2915949.deta.app/
+En este link podras ingresar y consultar las funciones: [Link](https://proyecto-1-l2915949.deta.app/)
 - get_max_duration(year, platform, duration_type) opcional parametros
 - get_score_count(platform, scored, year))
 - get_count_platform(platform)
@@ -43,7 +43,7 @@ En este link podras ingresar y consultar las funciones: https://proyecto-1-l2915
 
 Ejemplo de ponerle opciones: "app/get_max_duration/OPCION_AÑO_OPCION_PLATAFORMA_OPCION_TIPODURACION"
 
-Tambien puedes agregarle /docs, te sera mas amistoso! - https://proyecto-1-l2915949.deta.app/docs
+Tambien puedes agregarle /docs, te sera mas amistoso! - [Link](https://proyecto-1-l2915949.deta.app/docs)
 
 Descargar la app aqui: https://deta.space/discovery/r/cwp6zzbnkbpl6yml
 
@@ -63,6 +63,6 @@ Use estas heramientas:
 - Entre Otros!!
 
 Gracias por la visita😏
-Cualquier cosa podes escribirme a --> giseepereira2017@gmial.com
+Cualquier cosa podes escribirme a --> giseepereira2017@gmial.com :+1:
 
 
