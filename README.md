@@ -1,12 +1,13 @@
-# Proyecto_Individual01
+                                                                        Proyecto_Individual01
 Giselle Pereira Nuñez
+
 
 Temática
 El Rol consiste en Data Scientist que trabaja en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
 
 Voy a los datos y me doy cuenta que la madurez de los mismos es poca: Datos sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas😩.
 
-Empiezo desde 0, haciendo un trabajo rápido de Data Engineer y tener un MVP (Minimum Viable Product) para la próxima semana❗. 
+Empiezo desde 0, haciendo un trabajo de Data Engineer y comenzar con mi primer modelo de ML❗. 
 
 Manos a la obra 💪
 
@@ -30,20 +31,22 @@ Funciones que componen la API y Link:
 - Cantidad de películas por plataforma con filtro de PLATAFORMA.
 - Actor que más se repite según plataforma y año. 
 
-+ https://proyecto-1-l2915949.deta.app/
-- Esta es una forma de usar la primer funcion ya que sus filtros son opcionales:
-""https://proyecto-1-l2915949.deta.app/get_max_duration""
-- En caso de querer ponerle opciones:
-""https://proyecto-1-l2915949.deta.app/get_max_duration/OPCION_AÑO_OPCION_PLATAFORMA_OPCION_TIPODURACION""
-- Tambien puedes agregarle /docs, te sera mas amistoso!
-+ https://proyecto-1-l2915949.deta.app/docs
+
+En este link podras ingresar y consultar las funciones: https://proyecto-1-l2915949.deta.app/
+- get_max_duration(year, platform, duration_type) opcional parametros
+- get_score_count(platform, scored, year))
+- get_count_platform(platform)
+- get_actor(platform, year)
+
+Ejemplo de ponerle opciones: "app/get_max_duration/OPCION_AÑO_OPCION_PLATAFORMA_OPCION_TIPODURACION"
+
+Tambien puedes agregarle /docs, te sera mas amistoso! - https://proyecto-1-l2915949.deta.app/docs
 
 Sintaxis a tener en cuenta al escribir una consulta: ⚠️
 - Todo debe estar escrito en minúsculas.
 - Las plataformas que admite son: amazon, disney_plus, hulu y netflix.
-- Evite utilizar caracteres hispanos.
 
-Utilice estas heramientas:
+Use estas heramientas:
 - Python.
 - Librería Pandas.
 - Librería Numpy.
