@@ -46,6 +46,10 @@ Ejemplo de ponerle opciones: "app/get_max_duration/OPCION_AÑO_OPCION_PLATAFORMA
 Tambien puedes agregarle /docs, te sera mas amistoso! - [Link](https://proyecto-1-l2915949.deta.app/docs)
 
 Descargar la app aqui: https://deta.space/discovery/r/cwp6zzbnkbpl6yml
++ Space Deta
+>Usuario: gipereira2023
+
+>Nombre de la app: PROYECTO
 
 Sintaxis a tener en cuenta al escribir una consulta: ⚠️
 - Todo debe estar escrito en minúsculas.
