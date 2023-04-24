@@ -1,4 +1,4 @@
- ***Proyecto_Individual01***
+ ## **Proyecto_Individual01**
 >Giselle Pereira Nuñez
 
 ![Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos](https://user-images.githubusercontent.com/108558805/220166602-27bce753-813d-4aec-af26-77c5e89cb28a.jpg)
