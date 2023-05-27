@@ -1,31 +1,55 @@
- ## **Proyecto_Individual01**
+ ## **Proyecto_Individual**
 >Giselle Pereira Nuñez
 
 ![Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos](https://user-images.githubusercontent.com/108558805/220166602-27bce753-813d-4aec-af26-77c5e89cb28a.jpg)
 
 
-:nerd_face: Temática: 
+:clipboard: Temática: 
 
-Soy un Data Scientist que trabaja en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
+Start-up que provee servicios de agregación de plataformas de streaming.
+ 
+Como Data Scientist crearé un  modelo de ML que soluciona un problema de negocio: **un sistema de recomendación!**
 
-Voy a los datos y me doy cuenta que la madurez de los mismos es poca: Datos sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas😩.
+Los datos se encuentran sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas.
 
-Empiezo desde 0, haciendo un trabajo de Data Engineer y comenzar con mi primer modelo de ML❗. 
+:round_pushpin: Asumiendo el rol completo de un Data Scientist :
 
-Manos a la obra 💪
+Comienzo haciendo un trabajo de Data Engineer, donde se extrageron los datos de un almacenamiento en la nube, para transformarlos según lo necesitado.
 
+Luego, un trabajo de Data Analytics, para realizar un EDA simple para obtener conocimiento básico y valioso de los datos.
+
+Finalmente, modelando los datos y utilizando técnicas de aprendizaje automático, para crear un sistema de recomendación de ¡Peliculas y series!. 
+
+:raised_hands: Manos a la obra :raised_hands:
 
 MENU: 
 
-- [x] Carpeta Datasets_iniciales - las bases de datos que recibí para trabajar.
-- [x] Carpeta pycache - carpeta necesaria para el funcionamiento de la API.
-- [x] Carpeta API - dentro de encuentan todo los recursos necesarios para la API de consultas.
-- [x] Funciones_API.ipynb - notebook con pruebas de las funciones.
-- [x] ETL.ipynb - paso a paso del ETL.
-- [x] EDA.ipynb - archivo de analisis de datos.
-- [x] ML.ipynb - acrchivo de modelo de Sistema de Recomendación.
-- [x] README - Instrucciones de uso.
-- [x] ml.parquet - archivo parquet utilizado para el modelo de ML.
+:heavy_check_mark: Carpeta 'API' - se encuentran todos los recursos necesarios para la API de consultas:
+    
+   - Spacefile: en este archivo se utiliza para configurar y definir los microservicios o funciones individuales dentro de la apicación
+   - archivo1.parquet: datos almacenados en formato parquet(optimo para el procesamiento y análisis eficiente de grandes volúmenes de datos), utilizados pata la entrada en la API.
+   - main.py: es el archivo principal de la API, construida con el lenguaje python en forma de **pipeline**, contiene el código fuente que define las rutas y funcionalidades de la API.
+   - requirements.txt: este archivo de texto contiene una lista de paquetes y versiones requeridas para que la API funcione correctamente.
+
+:heavy_check_mark: Carpeta 'Codigo_Transformación_Exploración' - dentro de encuentan todo los recursos necesarios para la API de consultas.
+    
+:heavy_check_mark: Carpeta Datasets_iniciales - las bases de datos que recibí para trabajar.
+
+:heavy_check_mark: Carpeta pycache - carpeta necesaria para el funcionamiento de la API.
+
+:heavy_check_mark: Carpeta API - dentro de encuentan todo los recursos necesarios para la API de consultas.
+
+:heavy_check_mark: Funciones_API.ipynb - notebook con pruebas de las funciones.
+
+:heavy_check_mark: ETL.ipynb - paso a paso del ETL.
+
+:heavy_check_mark: EDA.ipynb - archivo de analisis de datos.
+
+:heavy_check_mark: ML.ipynb - acrchivo de modelo de Sistema de Recomendación.
+
+:heavy_check_mark: README - Instrucciones de uso.
+
+:heavy_check_mark: ml.parquet - archivo parquet utilizado para el modelo de ML.
 
 
 Funciones que componen la API y Link:
