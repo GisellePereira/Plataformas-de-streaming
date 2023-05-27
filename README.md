@@ -4,7 +4,7 @@
 ![Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos](https://user-images.githubusercontent.com/108558805/220166602-27bce753-813d-4aec-af26-77c5e89cb28a.jpg)
 
 
-:clipboard: Temática: 
+:clipboard: **TEMÁTICA:**
 
 Start-up que provee servicios de agregación de plataformas de streaming.
  
@@ -22,7 +22,9 @@ Finalmente, modelando los datos y utilizando técnicas de aprendizaje automátic
 
 :raised_hands: Manos a la obra :raised_hands:
 
-MENU: 
+-------------------------------------------------------------------------------------
+
+**MENU:**
 
 :heavy_check_mark: Carpeta 'API' - se encuentran todos los recursos necesarios para la API de consultas:
     
@@ -31,43 +33,98 @@ MENU:
    - main.py: es el archivo principal de la API, construida con el lenguaje python en forma de **pipeline**, contiene el código fuente que define las rutas y funcionalidades de la API.
    - requirements.txt: este archivo de texto contiene una lista de paquetes y versiones requeridas para que la API funcione correctamente.
 
-:heavy_check_mark: Carpeta 'Codigo_Transformación_Exploración' - dentro de encuentan todo los recursos necesarios para la API de consultas.
+:heavy_check_mark: Carpeta 'Datasets_iniciales' - se encuentran en esta carpeta los datos iniciales, sin ninguna transformación:
+
+   - amazon_prime_titles.csv: datos crudos de peliculas y series de la plataforma Amazon.
+   - disney_plus_titles.csv: datos crudos de peliculas y series de la plataforma Disney Plus.
+   - hulu_titles.csv: datos crudos de peliculas y series de la plataforma Hulu.
+   - netflix_titles-csv: datos crudos de peliculas y series de la plataforma Netflix.
+
+:heavy_check_mark: Carpeta 'Datasets_resultantes' - se encuentran en esta carpeta los datos resultantes del ETL (en formatos csv y parquet)y del ML (en formato parquet):
+
+   - archivo.csv: datos resultantes de ETL en formato csv.
+   - archivo1.parquet: datos resultantes de ETL en formato parquet.
+   - ml.parquet: resultado del modelado de datos, para utilizarlos en el aprendizaje automático (ML)
     
-:heavy_check_mark: Carpeta Datasets_iniciales - las bases de datos que recibí para trabajar.
+:heavy_check_mark: Carpeta 'ETL_EDA' - dentro de esta carpeta se encuentran los archivos donde se realizaron el ETL y EDA (los dos en formato .ipynb):
 
-:heavy_check_mark: Carpeta pycache - carpeta necesaria para el funcionamiento de la API.
+   - ETL.ipynb: en este archivo se encuentra la extracción, transformación y limpieza de los datos crudos.
+   - EDA.ipynb: en este archivo se encuentra una exploración de los datos.
 
-:heavy_check_mark: Carpeta API - dentro de encuentan todo los recursos necesarios para la API de consultas.
+:heavy_check_mark: Carpeta 'Informes' - en este carpeta se encuentran los informes del ETL y EDA:
 
-:heavy_check_mark: Funciones_API.ipynb - notebook con pruebas de las funciones.
+   - Informe_ETL.pdf: en este informe se especifican los pasos realizados en el ETL, se explica el ¿Por qué? ¿Para qué? y su importancia (su formato es PDF).
+   - Informe_EDA.pdf: en este informe se especifican los pasos realizados en el EDA, se explica el ¿Por qué? ¿Para qué? y su importancia (su formato es PDF).
 
-:heavy_check_mark: ETL.ipynb - paso a paso del ETL.
+:heavy_check_mark: Carpeta 'ML_funciones' - dentro de esta carpeta se encuentran las funciones realizadas para la API, y el machine learning:
 
-:heavy_check_mark: EDA.ipynb - archivo de analisis de datos.
+   - Funciones_API.ipynb: en formato .ipynb, se encuentran las funciones que luego se utilizaron en el archivo principal "main.py". Y al final del archivo se encuenta la eliminación de los campos no utilizados.
+   - ML.ipynb: en formato .ipynb, se encuentra el modelado de los datos, para luego utilizarlos en el aprendizaje automático donde se **predice si a un nuevo usuario le gustará o no una película o serie** teniengo en cuenta 
 
-:heavy_check_mark: ML.ipynb - acrchivo de modelo de Sistema de Recomendación.
+:heavy_check_mark: Carpeta '_ pycache' - esta carpera es creada automáticamente cuando se ejecuta el código de creación de la API, esta contiene archivos caché generados por el interprete para mejorar el rendimiento:
 
-:heavy_check_mark: README - Instrucciones de uso.
+   - main.cpython-39.pyc: este archivo con la extención .pyc (archivo de código de bytes), es específco de la versión de python, no se modifican manualmente.
 
-:heavy_check_mark: ml.parquet - archivo parquet utilizado para el modelo de ML.
+:heavy_check_mark: Archivo 'Netflix-Amazon-Prime-Hulu-Disney-Plus-Logos.jpg' - es la imagen que se encuentra al comienzo del readme.
+
+:heavy_check_mark: Archivo 'README.md' - en este readme encontrará especificaciones de todo el proyecto.
+
+-------------------------------------------------------------------------------------
+
+**FUNCIONES QUE COMPONEN LA API Y EL LINK**
+- Película con mayor duración,
+     - Filtros opcionales: AÑO, PLATAFORMA Y TIPO DE DURACIÓN. 
+     - Nombre de la función: get_max_duration(year, platform, duration_type)
+- Cantidad de películas por plataforma teniendo en cuenta,
+     -  Filtros no opcionsles: PLATAFORMA, PUNTAJE Y AÑO
+     -  Nombre de la función: get_score_count(platform, scored, year))
+- Cantidad de películas por plataforma teniendo en cuenta,
+     - Filtro no opcional: PLATAFORMA.
+     - Nombre de la función: get_count_platform(platform)
+- Actor que más se repite según,
+     - Filtros no opcionales: PLATAFORMA Y AÑO.
+     - Nombre de la función: get_actor(platform, year)
 
 
-Funciones que componen la API y Link:
-- Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. 
-- Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año.
-- Cantidad de películas por plataforma con filtro de PLATAFORMA.
-- Actor que más se repite según plataforma y año. 
+
+:warning: **Sintaxis a tener en cuenta al escribir una consulta en los filtros de texto:** :warning:
+
+:red_circle: Todo debe estar escrito en minúsculas.
+
+:red_circle: Las plataformas admitidas: amazon, disney_plus, hulu y netflix.
+
+:red_circle: En los filtros de tipo de duración colocar: min o season.
 
 
-En este link podras ingresar y consultar las funciones: [Link](https://proyecto-1-l2915949.deta.app/)
-- get_max_duration(year, platform, duration_type) opcional parametros
-- get_score_count(platform, scored, year))
-- get_count_platform(platform)
-- get_actor(platform, year)
+:link: En este [link](https://proyecto-1-l2915949.deta.app/docs) podras ingresar y consultar las funciones. Cliqueando en las 'flechas' de cada funsión, luego la opción 'Try it out', colocar los filtros y finalmente, cliquear botón 'Execute'.
 
-Ejemplo de ponerle opciones: "app/get_max_duration/OPCION_AÑO_OPCION_PLATAFORMA_OPCION_TIPODURACION"
 
-Tambien puedes agregarle /docs, te sera mas amistoso! - [Link](https://proyecto-1-l2915949.deta.app/docs)
+**Relizarle solicitudes al servidor web de la API:**
+- URL del servidor web: [https://proyecto-1-l2915949.deta.app/](https://proyecto-1-l2915949.deta.app/)
+    - Si a esta URL se le agrega:
+    
+        :small_blue_diamond: get_max_duration(year, platform, duration_type) 
+        
+        :small_blue_diamond: get_score_count(platform, scored, year)
+        
+        :small_blue_diamond: get_count_platform(platform)
+        
+        :small_blue_diamond: get_actor(platform, year)
+        
+       **Devolverá una respuesta**
+    
+ - **Ejemplos:**
+ 
+:link: [https://proyecto-1-l2915949.deta.app/get_max_duration](https://proyecto-1-l2915949.deta.app/get_max_duration)
+
+:link: [https://proyecto-1-l2915949.deta.app/get_max_duration?year=2000&platform=amazon&duration_type=min](https://proyecto-1-l2915949.deta.app/get_max_duration?year=2000&platform=amazon&duration_type=min)
+
+:link: [https://proyecto-1-l2915949.deta.app/get_score_count?platform=netflix&scored=3&year=2001](https://proyecto-1-l2915949.deta.app/get_score_count?platform=netflix&scored=3&year=2001)
+
+:link: [https://proyecto-1-l2915949.deta.app/get_count_platform?platform=hulu](https://proyecto-1-l2915949.deta.app/get_count_platform?platform=hulu)
+
+:link: [https://proyecto-1-l2915949.deta.app/get_actor?platform=disney_plus&year=2012](https://proyecto-1-l2915949.deta.app/get_actor?platform=disney_plus&year=2012)
+
 
 Descargar la app aqui: https://deta.space/discovery/r/cwp6zzbnkbpl6yml
 + Space Deta
@@ -75,22 +132,32 @@ Descargar la app aqui: https://deta.space/discovery/r/cwp6zzbnkbpl6yml
 
 >Nombre de la app: PROYECTO
 
-Sintaxis a tener en cuenta al escribir una consulta: ⚠️
-- Todo debe estar escrito en minúsculas.
-- Las plataformas que admite son: amazon, disney_plus, hulu y netflix.
-- En los campos que piden tipo de duración estan las opciones: min y season.
+-------------------------------------------------------------------------------------
 
-Use estas heramientas:
+:wrench: **EN ESTE PROTECTO SE UTILIZARON LAS SIGUIENTES HERRAMIENTAS**
+
 - Python.
-- Librería Pandas.
-- Librería Numpy.
+- Visual studio code.
+- Librería pandas.
+- Librería numpy.
+- Librería seaborn.
+- Librería matplotlib.
+- Librería datetime.
 - Librería scikit-learn.
+- Librería surprise.
+- Librería fastparquet.
 - FastApi.
-- Uvicorn.
+- Uvicorn (servidor web).
 - Space Deta (plataforma online y gratuita)
-- Entre Otros!!
 
-Gracias por la visita😏
-Cualquier cosa podes escribirme a --> giseepereira2017@gmial.com :+1:
+Gracias por la visita :smile: :bangbang:
+
+**MI CONTACTO:**
+
+:fire: [Gmail](mailto:giseepereira2017@gmail.com)
+
+:fire: [LinkedIn](https://www.linkedin.com/in/giselle-pereira-nu%C3%B1ez-011330168/)
+
+
 
 
