@@ -24,7 +24,7 @@ Finalmente, modelando los datos y utilizando técnicas de aprendizaje automátic
 
 -------------------------------------------------------------------------------------
 
-**MENU:**
+**MENÚ:**
 
 :heavy_check_mark: Carpeta 'API' - se encuentran todos los recursos necesarios para la API de consultas:
     
@@ -150,7 +150,7 @@ Descargar la app aqui: https://deta.space/discovery/r/cwp6zzbnkbpl6yml
 - Uvicorn (servidor web).
 - Space Deta (plataforma online y gratuita)
 
-Gracias por la visita :smile: :bangbang:
+-------------------------------------------------------------------------------------
 
 **MI CONTACTO:**
 
@@ -158,6 +158,4 @@ Gracias por la visita :smile: :bangbang:
 
 :fire: [LinkedIn](https://www.linkedin.com/in/giselle-pereira-nu%C3%B1ez-011330168/)
 
-
-
-
+Gracias por la visita :smile: :bangbang:
